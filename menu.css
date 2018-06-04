@@ -1,0 +1,42 @@
+header{
+  position: fixed;
+  width: 100vw;
+
+}
+
+ul{
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.hide{
+  display: none;
+}
+
+
+.header{
+  display: flex;
+  width: 94vw;
+  justify-content: space-between;
+  margin: 2vw;
+}
+
+
+.mainmenu{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.menuperso{
+  position: fixed;
+  width: 70vw;
+  margin-left: 30vw;
+  background-color: grey;
+  height: 100vh;
+  margin-top: -25vh;
+}
