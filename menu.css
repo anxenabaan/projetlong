@@ -36,7 +36,16 @@ ul{
   position: fixed;
   width: 70vw;
   margin-left: 30vw;
-  background-color: grey;
+  background-color: #9CA857;
   height: 100vh;
-  margin-top: -25vh;
+}
+
+.mainlogo{
+  height: 5vw;
+}
+
+.btnclose{
+  height: 5vh;
+  margin-top: 2vh;
+  margin-left: 3vw; 
 }
