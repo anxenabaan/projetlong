@@ -108,6 +108,10 @@ input{
 
 }
 
+a{
+	text-decoration: none;
+}
+
 
 #btnCommercant{
 
@@ -269,6 +273,11 @@ input{
 	left : 29vw;
 }
 
+#inscription h2 a :hover{
+	color : orange;
+}
+
+
 #loginFb {
 	position : relative;
 	width : 600px;
@@ -282,6 +291,79 @@ input{
 }
 #loginFb ::placeholder{
 	color : orange;
+}
+
+/* Inscription */
+
+#fullName{
+	background: rgba(255,255,255,0.65);
+	position : relative;
+	top : 20vw;
+    width : 650px;
+    margin-bottom : 2vw;
+}
+
+#fonction {
+	background: rgba(255,255,255,0.65);
+	color : white;
+	position : relative;
+    width : 200px;
+ 	top : 50vw;
+    margin-bottom : 2vw;
+}
+#emailPlace{
+	background: rgba(255,255,255,0.65);
+	position : relative;
+	top : 50vw;
+    width : 650px;
+    margin-bottom : 2vw;
+}
+
+#putPassword{
+	background: rgba(255,255,255,0.65);
+	position : relative;
+	top : ;
+	width : ;
+	margin-bottom: ;
+	background: transparent;
+
+}
+
+#confirm{
+	background: rgba(255,255,255,0.65);
+	position : relative;
+	top : ;
+	width : 200px;
+	margin-bottom:  ;
+	background: transparent;
+}
+
+#ville{
+	
+	position : relative;
+	top : ;
+	width : 300px;
+	margin-bottom: ;
+	background: transparent;
+}
+
+#btnPaiement{
+	position : relative;
+	top : 85vw;
+    width : 650px;
+    margin-bottom : 2vw;
+}
+#dejaCompte {
+
+	color : white;
+	font-family : Arial;
+	font-size : 30px;
+	letter-spacing: 2px;
+	position :relative;
+	text-align: center;
+	top : 95vw;
+	left : 29vw;
+
 }
 
 
