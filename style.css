@@ -493,5 +493,181 @@ a{
 
 }
 
+/* Paramètres */ 
+
+#arrowBlancheParam img {
+	position: relative;
+	top : 10vw;
+	width : 50px;
+	left : 7vw;
+}
 
 
+.photoProfil img{
+	
+	width : 200px;
+	height : 210px;
+	position : relative ;
+	left : 40vw;
+	border-radius: 100px;
+	border : transparent;
+}
+
+.nomClient h1{
+	font-size: 40px;
+	position : relative;
+	text-align: center;
+	font-family: Arial;
+	letter-spacing: 2px;
+	top : -7vw;
+	left : 1vw;
+
+}
+.villeClient h2{
+	font-size : 25px;
+	position: relative;
+	top : -17vw;
+	font-family: Arial;
+}
+.txtInputEmail2 h6{
+	color : white;
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: 2px;
+	position : relative;
+	top : -8vw;
+	left : 22vw;
+
+}
+#emailPlace2{
+
+	background: rgba(255,255,255,0);
+	position : relative;
+	top : -25vw;
+    width : 650px;
+    left : -5vw;
+    margin-bottom : 2vw;
+
+}
+
+.traitEmail2{
+	width : 700px;
+	background: white;
+	position : relative;
+	left : 15vw;
+	top : -22vw;
+	height : 2px;
+}
+
+.txtInputMobile h6{
+	color : white;
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: 2px;
+	position : relative;
+	top : -5vw;
+	left : 22vw;
+	font-weight: lighter;
+
+}
+
+#Mobile{
+	background: transparent;
+	position : relative;
+	top : -22vw;
+	left : -5vw;
+	font-size: 30px;
+	font-weight: lighter;
+
+}
+.traitMobile{
+	width : 700px;
+	background: white;
+	position : relative;
+	left : 15vw;
+	top : -17vw;
+	height : 2px;
+}
+
+
+
+.txtPaiement2 h6{
+	color : white;
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: 2px;
+	position : relative;
+	top : -14vw;
+	left : 22vw;
+	font-weight: lighter;
+
+
+}
+#paiementPlace{
+ 	background: transparent;
+ 	position :relative;
+ 	top : -32vw;
+ 	left : -5vw;
+
+}
+.traitPaiement2{
+	width : 700px;
+	background: white;
+	position : relative;
+	left : 15vw;
+	top : -25vw;
+	height : 2px;
+}
+
+#btnPaiement2{
+	position : relative;
+	top : -40vw;
+	left : 50vw;
+    width : 110px;
+    margin-bottom : 2vw;
+}
+
+/* Parametres */
+
+.accesInfos h1{
+	color : white;
+	position : relative;
+	text-align: center;
+	letter-spacing: 2px;
+	top : -5vw;
+	font-weight: normal;
+	left : 4vw;
+}
+.txtInputPass h6{
+	color : white;
+	font-family: Arial;
+	font-size: 30px;
+	letter-spacing: 2px;
+	position : relative;
+	top : 10vw;
+	left : 22vw;
+	font-weight: lighter;
+
+}
+#passInput{
+	background: transparent;
+	position : relative;
+	top : 3vw;
+	left : -5vw;
+	font-size: 30px;
+	font-weight: lighter;
+}
+.traitPassw{
+	width : 700px;
+	background: white;
+	position : relative;
+	left : 15vw;
+	top : 5vw;
+	height : 2px;
+}
+#btnPaiement3 {
+	width : 500px;
+	position : relative;
+	left: 5vw;
+	top : 30vw;
+}
