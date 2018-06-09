@@ -5,9 +5,9 @@ html,body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin : 0;
+    overflow-y: hidden; /*bloque le scroll */ 
     overflow-x: hidden;
-    overflow-y: hidden; s
+    margin : 0;
 }
 
 
@@ -103,7 +103,7 @@ input{
 }
 
 ::placeholder{
-	color: #FFFFF;
+	color: grey;
 	padding-left: 6vw;
 
 }
@@ -296,174 +296,63 @@ a{
 /* Inscription */
 
 #fullName{
-	background: transparent;
+	background: rgba(255,255,255,0.65);
 	position : relative;
-	top : 7vw;
-	left : -12vw;
+	top : 20vw;
     width : 650px;
     margin-bottom : 2vw;
-}
-
-.txtInputName h6 {
-	color : white;
-	font-family: Arial;
-	font-size: 25px;
-	letter-spacing: 2px;
-	position : relative;
-	top : 11vw;
-	left : 15vw;
-}
-
-
-
-.traitName {
-	width : 700px;
-	background: white;
-	position : relative;
-	left : 15vw;
-	top :4vw;
-	height : 2px;
 }
 
 #fonction {
-	background: rgba(255,255,255,0);
+	background: rgba(255,255,255,0.65);
 	color : white;
 	position : relative;
     width : 200px;
- 	top : -20.5vw;
- 	left : 38vw;
+ 	top : 50vw;
     margin-bottom : 2vw;
 }
-.txtInputFct h6 {
-	color : white;
-	font-family: Arial;
-	font-size: 25px;
-	letter-spacing: 2px;
-	position : relative;
-	top : -17vw;
-	left : 65vw;
-}
-
-
 #emailPlace{
-	background: rgba(255,255,255,0);
+	background: rgba(255,255,255,0.65);
 	position : relative;
-	top : -30vw;
+	top : 50vw;
     width : 650px;
-    left : -12vw;
     margin-bottom : 2vw;
 }
-.txtInputEmail h6 {
-	color : white;
-	font-family: Arial;
-	font-size: 25px;
-	letter-spacing: 2px;
-	position : relative;
-	top : -25vw;
-	left : 15vw;
-}
-.traitEmail {
-	width : 700px;
-	background: white;
-	position : relative;
-	left : 15vw;
-	top : -33vw;
-	height : 2px;
-}
 
-#inpassword{
-	background: rgba(255,255,255,0);
+#putPassword{
+	background: rgba(255,255,255,0.65);
 	position : relative;
-	top : -37vw;
-	width : 650px ;
-	left : -11vw;
+	top : ;
+	width : ;
 	margin-bottom: ;
+	background: transparent;
 
 }
-.txtInputPassword h6 {
-	color : white;
-	font-family: Arial;
-	font-size: 25px;
-	letter-spacing: 2px;
-	position : relative;
-	top : -32vw;
-	left : 15vw;
-}
-.traitPassword {
-	width : 700px;
-	background: white;
-	position : relative;
-	left : 15vw;
-	top : -38vw;
-	height : 2px;
-}
 
-
-
-#confirmpassword{
-	background: rgba(255,255,255,0);
+#confirm{
+	background: rgba(255,255,255,0.65);
 	position : relative;
-	top : -41vw;
-	left : -11vw;
+	top : ;
 	width : 200px;
 	margin-bottom:  ;
-
+	background: transparent;
 }
-.txtInputConfirm h6 {
-	color : white;
-	font-family: Arial;
-	font-size: 25px;
-	letter-spacing: 2px;
-	position : relative;
-	top : -37vw;
-	left : 15vw;
-}
-.traitConfirm {
-	width : 700px;
-	background: white;
-	position : relative;
-	left : 15vw;
-	top : -40vw;
-	height : 2px;
-}
-
 
 #ville{
-	background: rgba(255,255,255,0);
-	position : relative;
-	top : -45vw;
-	width : 300px;
-	left : -12vw;
 	
-
-}
-.txtInputVille h6 {
-	color : white;
-	font-family: Arial;
-	font-size: 25px;
-	letter-spacing: 2px;
 	position : relative;
-	top : -40vw;
-	left : 15vw;
+	top : ;
+	width : 300px;
+	margin-bottom: ;
+	background: transparent;
 }
-.traitVille {
-	width : 700px;
-	background: white;
-	position : relative;
-	left : 15vw;
-	top : -47vw;
-	height : 2px;
-}
-
 
 #btnPaiement{
 	position : relative;
-	top : -37vw;
-	left : -4vw;
+	top : 85vw;
     width : 650px;
     margin-bottom : 2vw;
 }
-
 #dejaCompte {
 
 	color : white;
@@ -477,22 +366,5 @@ a{
 
 }
 
-#btnSuivant {
-	position : relative;
-	top : -37vw;
-	left : -4vw;
-    width : 650px;
-    margin-bottom : 2vw;
-}
-
-#dejaCompte h2{
-	position : relative;
-	top : -127vw;
-	left : -12vw;
-    width : 650px;
-    margin-bottom : 2vw;
-    color : white;
-
-}
 
 
