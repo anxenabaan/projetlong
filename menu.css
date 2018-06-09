@@ -1,3 +1,9 @@
+@font-face {
+    font-family: arimo;
+    src: url(Arimo-Regular.ttf);
+}
+
+
 header{
   position: fixed;
   width: 100vw;
@@ -36,7 +42,8 @@ ul{
   position: fixed;
   width: 70vw;
   margin-left: 30vw;
-  background-color: #9CA857;
+  background-image: url(img/backIphone.png);
+  background-size: cover;
   height: 100vh;
 }
 
@@ -44,8 +51,69 @@ ul{
   height: 5vw;
 }
 
+.greenband{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  height: 10%;
+  background-color: #9CA857;
+}
+
 .btnclose{
-  height: 5vh;
-  margin-top: 2vh;
-  margin-left: 3vw; 
+  height: 3vh;
+
+}
+
+.infos{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: arimo;
+  color: white;
+}
+
+.username{
+  font-size: 200%;
+}
+
+.userplace{
+  font-size: 150%;
+}
+
+.profilepic{
+  max-width: 100%;
+  height: 50%;
+}
+
+.categories{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify: center;
+
+}
+.category{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: arimo;
+  margin-left: 20%;
+  margin-top: 5vh;
+
+}
+
+.category a{
+  color: white;
+  font-family: arimo;
+  font-size: 150%;
+  margin-left: 3vh;
+}
+
+.category .icon{
+  max-width: 100%;
+  height: 2.5vh;
 }
