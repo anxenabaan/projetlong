@@ -523,12 +523,20 @@ a{
 	left : 1vw;
 
 }
+
 .villeClient h2{
 	font-size : 25px;
 	position: relative;
 	top : -17vw;
 	font-family: Arial;
 }
+.iconCrayon img{
+	width : 60px;
+	position : relative;
+	top : -28vw;
+	left : 70vw;
+}
+
 .txtInputEmail2 h6{
 	color : white;
 	font-family: Arial;
@@ -549,6 +557,13 @@ a{
     margin-bottom : 2vw;
 
 }
+.iconMail img{
+	width : 60px;
+	position : relative;
+	left : 12vw;
+	top : -32vw;
+
+}
 
 .traitEmail2{
 	width : 700px;
@@ -558,6 +573,7 @@ a{
 	top : -22vw;
 	height : 2px;
 }
+
 
 .txtInputMobile h6{
 	color : white;
@@ -580,6 +596,14 @@ a{
 	font-weight: lighter;
 
 }
+
+.iconMobile img{
+	width : 60px;
+	position : relative;
+	top : -28vw;
+	left : 12vw;
+}
+
 .traitMobile{
 	width : 700px;
 	background: white;
@@ -610,6 +634,13 @@ a{
  	left : -5vw;
 
 }
+.iconPaiement img{
+	width : 60px;
+	position : relative;
+	top : -36vw;
+	left : 12vw;
+}
+
 .traitPaiement2{
 	width : 700px;
 	background: white;
@@ -669,5 +700,105 @@ a{
 	width : 500px;
 	position : relative;
 	left: 5vw;
-	top : 30vw;
+	top : 25vw;
+}
+
+/* Ajout moyen de paiement */
+
+.txtMoyenPaiement h1{
+	position : relative;
+	text-transform: uppercase;
+	top : -7vw;
+	left: 3vw;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	font-family: Arial;
+
+}
+.backgroundPaiement{
+	background: rgba(255,255,255,0.5);
+	position : relative;
+	border-radius: 30px;
+	margin: 3vw;
+	height: 900px;
+
+}
+.bankname h2{
+	font-size: Arial;
+	letter-spacing: 2px;
+	font-size : 40px;
+	position : relative;
+	top : 13.5vw;
+	left : 2vw;
+
+}
+.bankname img{
+	width : 150px;
+	position : relative;
+	left : 70vw;
+}
+.rondPassword h2{
+	font-size : 80px;
+	position :relative;
+	top : -5vw;
+	left : 14vw;
+
+}
+.crypto h2{
+	font-size : 50px;
+	position :relative;
+	top : -19.5vw;
+	left : 55vw;
+
+}
+.proprio h2{
+	font-size : 25px;
+	position :relative;
+	top : -17.5vw;
+	left : 3vw;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+
+}
+.nomProprio h2{
+	font-size : 35px;
+	position :relative;
+	top : -21.5vw;
+	left : 4.5vw;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+
+}
+.dateExp h2{
+	font-size : 25px;
+	position :relative;
+	top : -22.5vw;
+	left : 52vw;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+.dateExpir h2{
+	font-size : 45px;
+	position :relative;
+	top : -30vw;
+	left : 52vw;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+.iconModif img{
+	width : 90px;
+	position : relative;
+	left : 25vw;
+	top : -15vw;
+}
+.iconSupp img{
+	width : 100px;
+	position : relative;
+	left : 60vw;
+	top : -25vw;
 }
