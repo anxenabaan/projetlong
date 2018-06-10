@@ -802,3 +802,162 @@ a{
 	left : 60vw;
 	top : -25vw;
 }
+
+/* Paiement part 2 */ 
+.visa img{
+	width: 180px;
+	position : relative;
+	left : 10vw;
+	top : 7vw;
+}
+.amazon img{
+	width: 190px;
+	position : relative;
+	top : -6vw;
+	left : 37vw;
+	opacity: 0.5;
+}
+.paypal img{
+	width: 190px;
+	position : relative;
+	top : -18vw;
+	left : 65vw;
+	opacity: 0.5;
+}
+
+#fullCarte{
+	background: rgba(255,255,255,0.65);
+	background: transparent;
+	position : relative;
+	top : -19vw;
+	left : -12vw;
+    width : 650px;
+    margin-bottom : 2vw;
+}
+
+.txtInputCard h6 {
+	color : white;
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: 2px;
+	position : relative;
+	top : -15vw;
+	left : 15vw;
+}
+
+.traitCard {
+	width : 700px;
+	background: white;
+	position : relative;
+	left : 15vw;
+	top :-20vw;
+	height : 2px;
+}
+ #expiration {
+
+	background: rgba(255,255,255,0);
+	color : white;
+	position : relative;
+    width : 200px;
+ 	top : -47vw;
+ 	left : 38vw;
+    margin-bottom : 2vw;
+}
+
+.txtInputDateExp h6 {
+	color : white;
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: 2px;
+	position : relative;
+	top : -42vw;
+	left : 65vw;
+}
+
+#CCVPlace{
+
+	background: rgba(255,255,255,0);
+	position : relative;
+	top : -55vw;
+    width : 650px;
+    left : -12vw;
+    margin-bottom : 2vw;
+}
+.txtInputCCV h6 {
+	color : white;
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: 2px;
+	position : relative;
+	top : -50vw;
+	left : 15vw;
+}
+.traitCCV {
+	width : 700px;
+	background: white;
+	position : relative;
+	left : 15vw;
+	top : -56vw;
+	height : 2px;
+}
+
+#propriet{
+	
+	background: rgba(255,255,255,0);
+	position : relative;
+	top : -60vw;
+	width : 300px;
+	left : -12vw;
+	
+}
+.txtInputProprio h6 {
+	color : white;
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: 2px;
+	position : relative;
+	top : -56vw;
+	left : 15vw;
+}
+.traitProprio {
+	width : 700px;
+	background: white;
+	position : relative;
+	left : 15vw;
+	top : -58vw;
+	height : 2px;
+}
+
+#checkBox{
+	position : relative;
+	top : -52vw;
+	left : -5vw;
+	width : 70px;
+}
+#saveCard h2{
+	color : white;
+	font-size: 25px;
+	position : relative;
+	top : -61vw;
+	left : 25vw;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#btnValider{
+	width : 300px;
+	position : relative;
+	top : -40vw;
+}
+
+#btnAnnuler {
+	width : 300px;
+	position : relative;
+	background : transparent;
+	border-color: #9CA857;
+	border-width: 0.5vw;
+	top : -50vw;
+	left : 35vw;
+
+}
+

@@ -2,9 +2,50 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Paiement2</title>
+	<link rel="stylesheet" href="style.css">
+	<title>Paiement suite</title>
+	<link rel="shortcut icon" href="img/logoBlanc.png">
 </head>
 <body>
+
+	<header>
+		<a href="index.html"><img class="logo" src="img/logo.png"></a>
+
+	</header>
+
+	<div id="txtConnexion"> <h2> Paiement </h2></div>
+
+
+	<div class="visa"><img src="img/visa.png"></div>
+	<div class="amazon"><img src="img/amazon.png"></div>
+ 	<div class="paypal"><img src="img/paypal.png"></div>
+
+	<div class="txtInputCard"><h6>Numero carte</h6></div>
+	<input  name="fullCarte" id="fullCarte" type="text" placeholder="1234 5678 3456 2456">
+	<div class="traitCard">.</div>
+
+	<div class="txtInputDateExp"><h6>Date expiration</h6></div>
+	<input  name="expiration" id="expiration" type="text" placeholder=" 05 / 2020">
+	<div class="traitExpi">.</div>
+
+	<div class="txtInputCCV"><h6>CCV</h6></div>
+	<input  name="ccv" id="CCVPlace" type="text" placeholder=" 115 ">
+	<div class="traitCCV">.</div>
+
+	<div class="txtInputProprio"><h6> Propriétaire </h6></div>
+	<input  name="proprio" id="propriet" type="text" placeholder=" Emma Roux ">
+	<div class="traitProprio">.</div>
+
+	<input id="checkBox" type="checkbox">
+	<div id="saveCard"> <h2> Enregistrer la carte </h2> </div>
+
+
+
+
+	<a href="ACOMPLETER.html"><input name="" type="submit" id="btnValider" value="Valider"></a>
+
+	<a href="ACOMPLETER.html"><input name="" type="submit" id="btnAnnuler" value="Annuler"></a>
+
 	
 </body>
 </html>
