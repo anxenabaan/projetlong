@@ -7,6 +7,7 @@
 header{
   position: fixed;
   width: 100vw;
+  height: 8vh;
 
 }
 
@@ -19,14 +20,24 @@ ul{
 
 .hide{
   display: none;
+  margin-left: 100vw;
+
 }
 
+.animate{
+  margin-left: 30vw;
+}
+
+.animatereverse{
+  margin-left: 100vw;
+}
 
 .header{
   display: flex;
   width: 94vw;
   justify-content: space-between;
   margin: 2vw;
+
 }
 
 
@@ -35,16 +46,20 @@ ul{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
 }
 
 
 .menuperso{
-  position: fixed;
+  position: absolute;
   width: 70vw;
-  margin-left: 30vw;
+  margin-top: -8vh;
   background-image: url(img/backIphone.png);
   background-size: cover;
   height: 100vh;
+  transition: all 0.5s;
+  
+
 }
 
 .mainlogo{
@@ -116,4 +131,14 @@ ul{
 .category .icon{
   max-width: 100%;
   height: 2.5vh;
+}
+
+@keyframes rollon {
+    from {margin-left: 100vw;}
+    to {margin-left: 30vw;}
+}
+
+@keyframes rollout {
+    from {margin-left: 30vw;}
+    to {margin-left: 100vw;}
 }
