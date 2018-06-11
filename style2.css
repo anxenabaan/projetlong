@@ -1,8 +1,9 @@
 html,body{
 
     height: 100%;	
-    overflow-y: hidden; /*bloque le scroll */ 
+/*bloque le scroll */ 
     overflow-x: hidden;
+    overflow-y: hidden;
     margin : 0;
 }
 
@@ -157,5 +158,175 @@ html,body{
 	letter-spacing: 1px;
 	font-size : 2.5vw;
 	font-weight: normal;
+
+}
+
+/* chat */
+
+#txtGroupe h2 {
+	text-transform: uppercase;
+	color : #A6A7A8;
+	font-size : 2.5vw;
+	letter-spacing: 2px;
+	font-family: Arial;
+	position : relative;
+	left : 15vw;
+	top : 20vw;
+}
+.leftArrow img{
+	width : 50px;
+	position : relative;
+	top : 13.5vw;
+	left : 4vw;
+
+}
+
+.bulle1{
+	background : #9CA857;
+	padding: 3vw;
+	margin : 25vw;
+	height : 25vw;
+	width : 60vw;
+	position : relative;
+	border-radius : 20px;
+}
+.bulle1 h2{
+	color : white;
+	font-family: Arial;
+	font-weight : lighter;
+	letter-spacing : 2px;
+	font-size : 3vw;
+	position : relative;
+	top : -2vw;
+	padding : 1vw;
+	margin : 2vw;
+
+}
+.bulle1 h3{
+	color : white;
+	font-family: Arial;
+	font-weight : lighter;
+	letter-spacing : 2px;
+	font-size : 3vw;
+	position : relative;
+	top : -2vw;
+	padding : 1vw;
+	margin :2vw;
+	line-height: 1.8;
+
+}
+.bulle2{
+	background : #525252;
+	padding: 3vw;
+	margin : 25vw;
+	height : 25vw;
+	width : 60vw;
+	position : relative;
+	border-radius : 20px;
+	top : -20vw;
+	left : -17vw;
+}
+.bulle2 h2{
+	color : white;
+	font-family: Arial;
+	font-weight : lighter;
+	letter-spacing : 2px;
+	font-size : 3vw;
+	position : relative;
+	top : -2vw;
+	padding : 1vw;
+	margin : 2vw;
+
+}
+.bulle2 h3{
+	color : white;
+	font-family: Arial;
+	font-weight : lighter;
+	letter-spacing : 2px;
+	font-size : 3vw;
+	position : relative;
+	top : -2vw;
+	padding : 1vw;
+	margin :2vw;
+	line-height: 1.8;
+
+}
+
+#txtDay h2{
+	text-transform: uppercase;
+	color : #D6D1D1;
+	font-size : 3vw;
+	letter-spacing: 2px;
+	font-family: Arial;
+	position : relative;
+	top : -35vw;
+	text-align: center;
+}
+.bulle3{
+	background : #9CA857;
+	padding: 3vw;
+	margin : 25vw;
+	height : 15vw;
+	width : 60vw;
+	top : -52vw;
+	position : relative;
+	border-radius : 20px;
+}
+.bulle3 h2{
+	color : white;
+	font-family: Arial;
+	font-weight : lighter;
+	letter-spacing : 2px;
+	font-size : 3vw;
+	position : relative;
+	top : -2vw;
+	padding : 1vw;
+	margin : 2vw;
+
+}
+.bulle3 h3{
+	color : white;
+	font-family: Arial;
+	font-weight : lighter;
+	letter-spacing : 2px;
+	font-size : 3vw;
+	position : relative;
+	top : -2vw;
+	padding : 1vw;
+	margin :2vw;
+	line-height: 1.8;
+
+}
+#discussion {
+	background: transparent;
+	border-color: #525252;
+	width : 67vw;
+	height : 10vw;
+	padding : 1vw;
+	position : relative;
+	top : -67vw;
+	left : 15vw;
+}
+ ::placeholder{
+	color :#A6A7A8;
+	font-size : 2.5vw;
+	font-family: Arial;
+ 	font-style: italic;
+ 	padding : 3vw;
+ 	position :relative;
+}
+.cameraIcon img{
+	position : relative;
+	top : -77vw;
+	left : 3.5vw;
+	width : 65px;
+}
+
+.btnEnvoi img{
+
+	position : relative;
+	top : -83vw;
+	left : 88vw;
+	width : 65px;
 
 }
