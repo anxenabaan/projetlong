@@ -12,17 +12,24 @@ html,body{
 	font-family: Fira Sans;
 	letter-spacing: 2px;
 	font-weight: normal;
+	padding: 5vw;
+	top : 18vw;
 
 
 }
 .Kitbrunch {
 	background :#F4F4F4;
 	padding : 2vw;
+	height: 35vw;
+	position : relative;
+	top : 15vw;
+	margin-bottom: 2vw;
 }
 
 .titreBrunch h2{
 	text-transform: uppercase;
 	color : #9CA857;
+	margin-left : 4vw;
 	position : relative;
 	font-family: Arimo;
 	letter-spacing: 1px;
@@ -34,6 +41,7 @@ html,body{
 	color : #9CA857;
 	position : relative;
 	top : -5.5vw;
+	left : 60vw;
 	font-family: Arial;
 	letter-spacing: 1px;
 	font-size : 2.5vw;
@@ -46,8 +54,108 @@ html,body{
 	position : relative;
 	font-family: Arial;
 	letter-spacing: 1px;
-	font-size : 2.5vw;
+	font-size : 3.5vw;
+	top : -13.5vw;
+	left : 85vw;
 	font-weight: bolder;
-	text-transform: 
+
+
+}
+.ingredient1 h1{
+	font-family: Arimo;
+	font-size : 3.2vw;
+	position : relative;
+	margin-left : 4vw;
+	top : -10vw;
+}
+.ingredient2 h1{
+	font-family: Arimo;
+	font-size : 3.2vw;
+	position : relative;
+	margin-left : 4vw;
+	top : -10vw;
+}
+.txtLieux h2{
+	font-family: Arial;
+	color : #A6A7A8;
+	font-weight: normal;
+	font-size : 2.5vw;
+	position : relative;
+	top : -22vw;
+	left : 58vw;
+	background: transparent;
+	width : 300px;
+	height : 200px;
+
+}
+.KitRaclette {
+	background :#F4F4F4;
+	padding : 2vw;
+	height: 27vw;
+	position : relative;
+	top : 15vw;
+	margin-bottom: 2vw;
+}
+
+.titreRaclette h2{
+	text-transform: uppercase;
+	color : #9CA857;
+	margin-left : 4vw;
+	position : relative;
+	font-family: Arimo;
+	letter-spacing: 1px;
+	font-size : 2.5vw;
+	font-weight: normal;
+
+}
+.KitSaladeCesar {
+	background :#F4F4F4;
+	padding : 2vw;
+	height: 27vw;
+	position : relative;
+	top : 15vw;
+	margin-bottom: 2vw;
+}
+
+.titreSaladeCesar h2{
+	text-transform: uppercase;
+	color : #9CA857;
+	margin-left : 4vw;
+	position : relative;
+	font-family: Arimo;
+	letter-spacing: 1px;
+	font-size : 2.5vw;
+	font-weight: normal;
+
+}
+
+#jour2 {
+
+	color : #9CA857;
+	position : relative;
+	font-family: Fira Sans;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	padding: 5vw;
+	top : 12vw;
+}
+.KitMatinGourmand {
+	background :#F4F4F4;
+	padding : 2vw;
+	height: 27vw;
+	position : relative;
+	top : 8vw;
+	margin-bottom: 2vw;
+}
+
+.titreMatinGourmand h2{
+	text-transform: uppercase;
+	color : #9CA857;
+	margin-left : 4vw;
+	position : relative;
+	font-family: Arimo;
+	letter-spacing: 1px;
+	font-size : 2.5vw;
+	font-weight: normal;
 
 }
