@@ -1,0 +1,38 @@
+/* liste kits clients */
+
+.body{
+
+}
+.item1{
+	background : white;
+	position: relative;
+	top : 15vw;
+	left : 10vw;
+	width : 650px;
+	height : 730px;
+}
+.item1 img{
+	width : 650px;
+
+}
+
+#titre {
+	color : #525252;
+	font-family: Arimo ;
+	font-size: 32px ;
+	font-weight: bolder ;
+	position : relative;
+	letter-spacing: 1px;
+	top : 2vw;
+	left : 2vw;
+}
+
+#prix{
+   	color : #9CA857;
+   	font-weight : bolder;
+   	font-family: Arial;
+   	font-size : 55px;
+   	position : relative;
+   	left : 48vw;
+   	top : -2vw;
+}
