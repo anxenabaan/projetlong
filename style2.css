@@ -1,0 +1,53 @@
+html,body{
+
+    height: 100%;	
+    overflow-y: hidden; /*bloque le scroll */ 
+    overflow-x: hidden;
+    margin : 0;
+}
+
+#jour h1 {
+	color : #9CA857;
+	position : relative;
+	font-family: Fira Sans;
+	letter-spacing: 2px;
+	font-weight: normal;
+
+
+}
+.Kitbrunch {
+	background :#F4F4F4;
+	padding : 2vw;
+}
+
+.titreBrunch h2{
+	text-transform: uppercase;
+	color : #9CA857;
+	position : relative;
+	font-family: Arimo;
+	letter-spacing: 1px;
+	font-size : 2.5vw;
+	font-weight: normal;
+
+}
+.aDeposer h3{
+	color : #9CA857;
+	position : relative;
+	top : -5.5vw;
+	font-family: Arial;
+	letter-spacing: 1px;
+	font-size : 2.5vw;
+	font-weight: lighter;
+	font-style: italic;
+
+}
+.heure h4{
+	color : #525252;
+	position : relative;
+	font-family: Arial;
+	letter-spacing: 1px;
+	font-size : 2.5vw;
+	font-weight: bolder;
+	text-transform: 
+
+}
