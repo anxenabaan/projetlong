@@ -1,0 +1,106 @@
+html,body{
+
+    height: 100%;	
+	background : white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden; /*bloque le scroll */ 
+    overflow-x: hidden;
+    margin : 0;
+}
+
+.logo {
+	width : 100px;
+	height : auto;
+}
+#arrowBlancheParam img {
+	position: relative;
+	top : 10vw;
+	width : 50px;
+	left : 7vw;
+}
+
+
+/* popup Vaidation */
+
+.popupValid{
+	width : 70vw;
+	margin : 18vw;
+	left : -20vw;
+	height: 130vw;
+	box-shadow: 5px 5px 15px #aaaaaa;
+
+}
+.popupValid h4{
+	position: relative;
+	top : 28vw;
+	color : #525252;
+	font-family: Arimo; 
+	font-size: 4vw;
+	font-weight: bolder;
+	letter-spacing :2px;
+	text-align: center;
+
+
+}
+.popupValid img{
+	width : 55vw;
+	position : relative;
+	left : 10vw;
+	top : 15vw;
+
+}
+
+
+/* popup Rappel */
+
+.popupRappel{
+	width : 70vw;
+	margin : 18vw;
+	left : -20vw;
+	height: 130vw;
+	box-shadow: 5px 5px 15px #aaaaaa;
+
+}
+
+.popupRappel{
+	width : 70vw;
+	margin : 18vw;
+	left : -20vw;
+	height: 130vw;
+	box-shadow: 5px 5px 15px #aaaaaa;
+
+}
+.popupRappel h4{
+	position: relative;
+	top : 20vw;
+	color : #525252;
+	font-family: Arimo; 
+	font-size: 4vw;
+	font-weight: bolder;
+	letter-spacing :2px;
+	text-align: center;
+
+}
+.txtRappel   h4{
+	font-size : 3.5vw;
+	color : #A6A7A8;
+	padding : 5vw;
+	top : 30vw;
+	position : relative;
+	font-family: Arial; 
+	font-weight: normal;
+
+}
+
+.txtPb h4{
+	font-size : 3.5vw;
+	color : #A6A7A8;
+	padding : 5vw;
+	position : relative;
+	top : 25vw;
+	font-family: Arial; 
+	font-weight: normal;
+}
+

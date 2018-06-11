@@ -433,7 +433,7 @@ a{
 	
 	background: rgba(255,255,255,0);
 	position : relative;
-	top : -45vw;
+	top : -30vw;
 	width : 300px;
 	left : -12vw;
 	
@@ -444,7 +444,7 @@ a{
 	font-size: 25px;
 	letter-spacing: 2px;
 	position : relative;
-	top : -40vw;
+	top : -50vw;
 	left : 15vw;
 }
 .traitVille {
@@ -452,7 +452,7 @@ a{
 	background: white;
 	position : relative;
 	left : 15vw;
-	top : -47vw;
+	top : -30vw;
 	height : 2px;
 }
 
