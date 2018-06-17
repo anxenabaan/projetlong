@@ -58,3 +58,26 @@ body{
 .itemkit h6{
   font-size: 100%;
 }
+
+/*details kit client*/
+
+.detailkit{
+  width: 90vw;
+  z-index: -4;
+  box-shadow: 2px 2px 20px #aaaaaa;
+  background : white;
+  position: relative;
+
+}
+.detailkit img{
+
+	width : 70%;
+  margin-left: 15%;
+  max-height: 100%;
+
+}
+
+
+.titredetail{
+  font-size: 1rem;
+}

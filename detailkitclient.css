@@ -1,0 +1,157 @@
+.detailkit{
+  margin-top: 10px;
+  width:90vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  box-shadow: 5px 5px 15px #aaaaaa;
+  padding: 10px;
+}
+
+.quit{
+  align-self: flex-end;
+}
+
+.detailkit>.textdetail>img{
+  width: 70%;
+  margin-left: 15%;
+
+}
+.detailkit h3{
+  color : #9CA857;
+  font-weight: normal;
+  font-family: Fira Sans;
+  font-size : 150%;
+  position : relative;
+}
+
+.detailkit h2{
+  color : #525252;
+  font-weight: bold;
+  font-family: Fira Sans;
+  font-size : 120%;
+  position : relative;
+  margin-left: 35%;
+}
+
+.detailkit p{
+  font-family: Arial;
+  line-height: 100%;
+
+
+}
+.detailkit .commentaire{
+  color : #525252;
+  font-style: italic;
+  font-family: Fira Sans;
+  font-size : 100%;
+  position : relative;
+  margin-left: 15%;
+  width: 70%;
+}
+
+
+.itemingredient{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color:#D6D1D1;
+  margin-bottom: 10px;
+
+}
+
+.itemingredient img{
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  background-color:#D6D1D1;
+  margin-left: 10%;
+
+}
+
+.food{
+  align-self: center;
+}
+
+.itemingredient p{
+ margin-bottom: 0;
+ margin-left: 10%;
+
+}
+
+.listparticipants{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+}
+.itemparticipant{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 5rem;
+  text-align: center;
+
+}
+.itemparticipant img{
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+
+}
+
+.listretrait{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items:center;
+
+}
+.listretrait .iconeplace{
+  height: 1rem;
+  width: 1rem;
+}
+
+
+.listcommander{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listcommander h4{
+  font-family: Arimo;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.selectpart{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  background-color: #F4F4F4;
+}
+.selectpart p{
+  margin-bottom: 0;
+}
+.selectpart img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.commander{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.commander p{
+  margin-top: -40px;
+  font-family: Fira Sans;
+  color: #525252
+}
