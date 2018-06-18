@@ -6,6 +6,9 @@ html,body{
     overflow-y: hidden;
     margin : 0;
 }
+li {
+	list-style-type: none;
+}
 
 #jour h1 {
 	color : #9CA857;
@@ -330,3 +333,393 @@ html,body{
 	width : 65px;
 
 }
+/* Création kit */
+
+.timelineVert{
+	background : #9CA857;
+	position : relative;
+	top : 18vw;
+	width : 85vw;
+	height : 2.5vw;
+	margin-left : 7vw;
+	border-radius: 5vw;
+}
+.timelineGrise{
+	background : #F4F4F4;
+	position : relative;
+	top : 0vw;
+	width : 55vw;
+	height : 2.5vw;
+	margin-left : 30vw;
+	border-radius: 5vw;
+}
+.rond{
+	background : #B7C663;
+	border-radius: 50%;
+	width : 2.5vw;
+	height: 2.5vw;
+	position : relative;
+	left : 0.7vw;
+	top : 0vw;
+}
+.zonePhoto{
+	background : transparent;
+	position : relative;
+	top : 5vw;
+	height : 30vw;
+	margin :20vw;
+	border: solid #F0F0F0 5px;
+
+}
+
+.zonePhoto img{
+	position : relative;
+	width : 12vw;
+	left : 24vw;
+	top : 8vw;
+
+}
+.zonePhoto h4{
+	font-family: Arial;
+	font-style: italic;
+	font-size : 2.5vw;
+	font-weight: lighter;
+	position : relative;
+	left : 5vw;
+	top : 8.5vw;
+}
+.titreKit h3{
+	font-family: Fira Sans;
+	font-size : 4vw;
+	position : relative;
+	font-weight: normal;
+	letter-spacing: 1px;
+	left : 5vw;
+	top : -7vw;
+	color : #9CA857;
+	margin-left : 3vw;
+
+}
+.titreKit h4{
+	font-family: Arial;
+	font-style: italic;
+	font-size : 3vw;
+	font-weight: lighter;
+	position : relative;
+	left : 5vw;
+	top : -13vw;
+	margin-left : 3vw;
+	
+}
+.descriptionKit h3{
+	font-family: Fira Sans;
+	font-size : 4vw;
+	position : relative;
+	font-weight: normal;
+	letter-spacing: 1px;
+	left : 5vw;
+	top : -10vw;
+	color : #9CA857;
+	margin-left : 3vw;
+
+}
+.descriptionKit h4{
+	font-family: Arial;
+	font-style: italic;
+	font-size : 3vw;
+	font-weight: lighter;
+	position : relative;
+	left : 5vw;
+	top : -17vw;
+	margin-left : 3vw;
+	
+}
+.ingredientsKit h3{
+	font-family: Fira Sans;
+	font-size : 4vw;
+	position : relative;
+	font-weight: normal;
+	letter-spacing: 1px;
+	left : 5vw;
+	top : -15vw;
+	color : #9CA857;
+	margin-left : 3vw;
+
+}
+.ingredientsKit .zoneIngregients{
+	background : #F7F7F7;
+	position : relative;
+	top : -29vw;
+	height : 12vw;
+	margin :20vw;
+}
+.zoneIngregients img{
+	width : 8vw;
+	position : relative;
+	left : 25vw;
+	top : 1.5vw;
+}
+#btnSauvegarder{
+	background : #D6D1D1;
+	width :35vw;
+	height : 10vw;
+	position :relative;
+	top : -35vw;
+	left : 15vw;
+	font-size : 2.5vw;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color : white;
+	font)font-weight: bolder;
+	border-radius : 12px;
+	box-shadow: 1px 1px 1.5px 1.5px #aaaaaaaa;
+}
+
+
+#btnSuivant {
+	background : #9CA857;
+	width :35vw;
+	height : 10vw;
+	position :relative;
+	top : -35vw;
+	left : 15vw;
+	margin : 2vw;
+	font-size : 2.5vw;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color : white;
+	font)font-weight: bolder;
+	border-radius : 12px;
+	box-shadow: 1px 1px 1.5px 1.5px #aaaaaaaa;
+
+}
+
+/* Création kit2(ingredients)*/
+
+#txtGroupe2 h3{
+
+	text-transform: uppercase;
+	color : #A6A7A8;
+	font-size : 2.5vw;
+	letter-spacing: 2px;
+	font-family: Arial;
+	position : relative;
+	left : 15vw;
+	top : 20vw;
+}
+.timelineVert2{
+	background : #9CA857;
+	position : relative;
+	top : 18vw;
+	width : 60vw;
+	height : 2.5vw;
+	margin-left : 7vw;
+	border-radius: 5vw;
+}
+.timelineGrise2{
+	background : #F4F4F4;
+	position : relative;
+	top : 0vw;
+	width : 38vw;
+	height : 2.5vw;
+	margin-left : 50vw;
+	border-radius: 5vw;
+}
+.rond2{
+	background : #B7C663;
+	border-radius: 50%;
+	width : 2.5vw;
+	height: 2.5vw;
+	position : relative;
+	left : -25vw;
+	top : -3vw;
+	border: solid #F0F0F0 5px;
+}
+.zoneIngred {
+	background : #F7F7F7;
+	height : 15vw;
+	position : relative;
+	top : 20vw;
+	margin : 8vw;
+}
+.zoneIngred2 {
+	background : #F7F7F7;
+	height : 15vw;
+	position : relative;
+	top : 15vw;
+	margin : 8vw;
+}
+.zoneIngred2 img{
+	width : 10vw ;
+	position : relative;
+	left : 35vw;
+	top : 2vw;
+
+
+}
+.prixKit h3{
+	font-family: Arial;
+	font-size : 7vw;
+	position : relative;
+	color : #9CA857;
+	left : 40vw;
+	top : 20vw;
+	letter-spacing: 2px;
+
+}
+.membresGroupe h3{
+	font-family: Arial;
+	font-size : 3vw;
+	font-weight: lighter;
+	color : #9CA857;
+	letter-spacing: 1.5px;
+	position: relative;
+	left : 10vw;
+	top : 30vw;
+}
+#btnSauvegarder2{
+	background : #D6D1D1;
+	width :35vw;
+	height : 10vw;
+	position :relative;
+	top : 45vw;
+	left : 15vw;
+	font-size : 2.5vw;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color : white;
+	font)font-weight: bolder;
+	border-radius : 12px;
+	box-shadow: 1px 1px 1.5px 1.5px #aaaaaaaa;
+}
+
+
+#btnSuivant2 {
+	background : #9CA857;
+	width :35vw;
+	height : 10vw;
+	position :relative;
+	top : 45vw;
+	left : 15vw;
+	margin : 2vw;
+	font-size : 2.5vw;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color : white;
+	font)font-weight: bolder;
+	border-radius : 12px;
+	box-shadow: 1px 1px 1.5px 1.5px #aaaaaaaa;
+
+}
+
+.boucherPhoto h4{
+	font-family: Arial;
+	font-size : 3vw;
+	margin-top :-2vw;
+	position : relative;
+	top : 57vw;
+	left : 10vw;
+}
+.boulangerPhoto h4{
+	font-family: Arial;
+	font-size : 3vw;
+	margin-top :-2vw;
+	position : relative;
+	top : 49.5vw;
+	left : 38vw;
+}
+.epicierPhoto h4{
+	font-family: Arial;
+	font-size : 3vw;
+	margin-top :-2vw;
+	position : relative;
+	top : 42vw;
+	left : 70vw;
+
+}
+
+
+/* Gestion Kit 1 */
+
+.item1{
+	background : #F4F4F4;
+	position: relative;
+	top : 20vw;
+	left : 5vw;
+	width : 42.5vw;
+	height : 80vw;
+}
+.item1 img{
+	width : 42.5vw;
+	height: 30vw
+
+}
+
+#titre h2{
+	color : #9CA857;
+	font-family: Arimo ;
+	font-size: 4vw ;
+	font-weight: bolder ;
+	position : relative;
+	letter-spacing: 1px;
+	top : 2vw;
+	left : 2vw;
+}
+
+#descriptionKit h4 {
+	color : #525252;
+	font-family: Arimo;
+	font-size: 3vw;
+	line-height: 5vw;
+	padding :1.2vw;
+	font-weight: bolder;
+}
+
+.item2{
+	background : #F4F4F4;
+	position: relative;
+	top : -60vw;
+	left : 52vw;
+	width : 42.5vw;
+	height : 80vw;
+}
+.item2 img{
+	width : 42.5vw;
+
+}
+.item3{
+	background : #F4F4F4;
+	position: relative;
+	top : -55vw;
+	left : 5vw;
+	width : 42.5vw;
+	height : 80vw;
+
+}
+
+
+.item3 img{
+	width : 42.5vw;
+
+}
+.item3 img a :hover{
+	background: orange;
+}
+.item4{
+	background : #F4F4F4;
+	position: relative;
+	top : -135vw;
+	left : 54vw;
+	width : 42.5vw;
+	height : 80vw;
+}
+.item4 img{
+	width : 10vw;
+	position : relative;
+	top : 25vw;
+	left : 16vw;
+
+
+}
+
+
