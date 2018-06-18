@@ -1,0 +1,44 @@
+h3{
+ color : #9CA857;
+ font-weight: normal;
+ font-family: Fira Sans;
+ font-size : 100%;
+ position : relative;
+ align-self: flex-start;
+ margin-left: 10vw;
+ margin-top: 20px;
+}
+
+.onecommande{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: auto;
+  align-items: center;
+  width: 90vw;
+  background-color: #D6D1D1 ;
+  border-radius: 12px 12px 12px 12px;
+  margin-bottom: 3px;
+
+}
+
+.onecommande p{
+  font-size: 80%;
+  margin-bottom: 0;
+  font-family: Arial;
+}
+
+.itemcmda{
+  display: flex;
+  width: 50%;
+  margin-left: 20%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.itemcmdb{
+  display: flex;
+  flex-direction: column;
+}

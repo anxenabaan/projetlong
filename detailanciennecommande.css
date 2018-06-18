@@ -1,0 +1,83 @@
+/* liste kits clients */
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+
+.itemkit{
+  margin-top: 1rem;
+  z-index: -4;
+  box-shadow: 5px 5px 15px #aaaaaa;
+	background : white;
+	position: relative;
+	width : 75vw;
+	height : auto;
+  margin-bottom: 3vh;
+
+}
+.itemkit img{
+	width : 100%;
+  max-height: 100%;
+}
+
+.itemkit .textpreview{
+  margin-left: 5%;
+}
+
+.titre {
+	color : #525252;
+	font-family: Arimo ;
+	font-size: 180% ;
+	font-weight: bolder ;
+	position : relative;
+	letter-spacing: 1px;
+
+}
+
+.prix{
+   	color : #9CA857;
+   	font-weight : bolder;
+   	font-family: Arial;
+   	font-size : 150%;
+   	position : relative;
+   	left : 48vw;
+
+}
+
+.place{
+  color: #9CA857;
+  font-size: 100%;
+}
+
+
+.itemkit h6{
+  font-size: 100%;
+}
+
+/*details kit client*/
+
+.detailkit{
+  width: 90vw;
+  z-index: -4;
+  box-shadow: 2px 2px 20px #aaaaaa;
+  background : white;
+  position: relative;
+
+}
+.detailkit img{
+
+	width : 70%;
+  margin-left: 15%;
+  max-height: 100%;
+
+}
+
+
+.titredetail{
+  font-size: 1rem;
+}

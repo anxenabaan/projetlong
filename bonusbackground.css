@@ -1,0 +1,35 @@
+body{
+	  background-image:url(img/backIPhone.png);
+    margin-top: 10px;
+}
+
+.logomain{
+    width: 20vw;
+    margin-left: 5vw;
+}
+
+.minimenu{
+
+  width: 90vw;
+  margin-left: 5vw;
+  display: flex;
+  align-items: center;
+
+}
+
+.whitearrow{
+  width: 5vw;
+  height: 5vw;
+
+}
+
+.titlehist{
+  color: white;
+  font-family: Arimo;
+  font-size: 150%;
+  margin-left: 17vw;
+}
+
+.onecommande{
+	margin-left: 5vw;
+}
