@@ -362,6 +362,15 @@ li {
 	left : 0.7vw;
 	top : 0vw;
 }
+.rond2{
+	background : #B7C663;
+	border-radius: 50%;
+	width : 2.5vw;
+	height: 2.5vw;
+	position : relative;
+	left : 0.7vw;
+	top : 0vw;
+}
 .zonePhoto{
 	background : transparent;
 	position : relative;
@@ -418,9 +427,10 @@ li {
 	font-weight: normal;
 	letter-spacing: 1px;
 	left : 5vw;
-	top : -10vw;
+	top : -12vw;
 	color : #9CA857;
 	margin-left : 3vw;
+
 
 }
 .descriptionKit h4{
@@ -432,7 +442,25 @@ li {
 	left : 5vw;
 	top : -17vw;
 	margin-left : 3vw;
+
+
 	
+}
+#descripInput {
+	position: relative;
+	top : -12vw;
+	left : 5vw;
+	margin-top: -6vw;
+	font-size : 10vw;
+
+
+}
+#descripTitre {
+	position: relative;
+	top : -12vw;
+	left : 4vw;
+	font-size : 10vw;
+	color : black;
 }
 .ingredientsKit h3{
 	font-family: Fira Sans;
@@ -549,13 +577,93 @@ li {
 	top : 15vw;
 	margin : 8vw;
 }
+
 .zoneIngred2 img{
 	width : 10vw ;
 	position : relative;
-	left : 35vw;
+	left : 37vw;
 	top : 2vw;
+}
+.zoneIngred22 {
+	background : #F7F7F7;
+	height : 23vw;
+	position : relative;
+	top : 15vw;
+	margin : 8vw;
+}
+.zoneIngred22 img{
+	width : 11vw ;
+	position : relative;
+	left : 20vw;
+	top : 5vw;
+}
+.epicierRond img{
+	position: relative;
+	top : -6vw;
+	left : 3vw;
+	width : 10vw;
+}
+.imgPoulet img{
+	position : relative;
+	top : 2vw;
+	width : 11vw;
+	left : 35vw;
 
+}
+#inputIngredients{
+	background: transparent;
+	position :relative;
+	left : 40vw;
+	font-size: 3vw;
+	width : 35vw;
+	padding: 2vw;
+	height : 3vw;
+	top : -20vw;
+	border:1px dashed black;
+	border-radius: 20px;
+}
+#inputPrixUnite{
+	background: transparent;
+	position :relative;
+	left : 1vw;
+	font-size: 3vw;
+	width : 35vw;
+	padding: 2vw;
+	height : 3vw;
+	top : -10vw;
+	border:1px dashed black;
+	border-radius: 20px;
+}
 
+.imgPoulet h5{
+	font-family: Arial;
+	font-size : 2vw;
+	position : relative;
+	top : -8vw;
+	left : 50vw;
+	font-weight: normal;
+}
+.imageBouch img{
+	position : relative;
+	width : 10vw;
+	top : -18vw;
+	left : 3vw;
+
+}
+
+.imageBouch h5{
+	position : relative;
+	font-size : 2.5vw;
+	font-family: Arial;
+	font-weight: normal;
+	top : -28vw;
+	left : 16vw;
+}
+.iconCrayon img{
+	position : relative;
+	width : 11vw;
+	top : -40vw;
+	left: 68vw;
 }
 .prixKit h3{
 	font-family: Arial;
@@ -575,8 +683,60 @@ li {
 	letter-spacing: 1.5px;
 	position: relative;
 	left : 10vw;
-	top : 30vw;
+	top : 22vw;
+	margin-bottom : -5vw;
 }
+.boucherPhoto img{
+	position: relative;
+	width : 15vw;
+	top : 48vw;
+	left : 10vw;
+	margin-top: -30vw;
+}
+.boucherPhoto h4{
+	font-family: Arial;
+	font-size : 3vw;
+	margin-top :-2vw;
+	position : relative;
+	top : 55vw;
+	left : 12vw;
+}
+.boulangerPhoto img{
+	position: relative;
+	width : 15vw;
+	top : 42vw;
+	left : 32vw;
+	margin-top: -30vw;
+}
+
+.boulangerPhoto h4{
+	font-family: Arial;
+	font-size : 3vw;
+	margin-top :-2vw;
+	position : relative;
+	top : 48vw;
+	left : 32vw;
+}
+.epicierPhoto img{
+	position: relative;
+	width : 15vw;
+	top : 36vw;
+	left : 54vw;
+	margin-top: -30vw;
+}
+
+
+.epicierPhoto h4{
+	font-family: Arial;
+	font-size : 3vw;
+	margin-top :-2vw;
+	position : relative;
+	top : 41vw;
+	left : 56vw;
+
+}
+
+
 #btnSauvegarder2{
 	background : #D6D1D1;
 	width :35vw;
@@ -609,32 +769,6 @@ li {
 	font)font-weight: bolder;
 	border-radius : 12px;
 	box-shadow: 1px 1px 1.5px 1.5px #aaaaaaaa;
-
-}
-
-.boucherPhoto h4{
-	font-family: Arial;
-	font-size : 3vw;
-	margin-top :-2vw;
-	position : relative;
-	top : 57vw;
-	left : 10vw;
-}
-.boulangerPhoto h4{
-	font-family: Arial;
-	font-size : 3vw;
-	margin-top :-2vw;
-	position : relative;
-	top : 49.5vw;
-	left : 38vw;
-}
-.epicierPhoto h4{
-	font-family: Arial;
-	font-size : 3vw;
-	margin-top :-2vw;
-	position : relative;
-	top : 42vw;
-	left : 70vw;
 
 }
 
