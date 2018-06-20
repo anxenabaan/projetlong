@@ -136,6 +136,12 @@ a{
     width : 650px;
     color : #FFFFF;
 }
+.searchLogo img {
+	position: relative;
+	width : 9vw;
+	top : 39.5vw;
+	left : 73vw;
+}
 
 .logo {
 	width : 100px;
