@@ -24,6 +24,7 @@
   font-family: Fira Sans;
   font-size : 150%;
   position : relative;
+  z-index: 0;
 }
 
 .detailkit h2{

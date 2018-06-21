@@ -55,12 +55,19 @@ ul{
   justify-content: space-around;
   font-family: arimo;
   font-weight: bold;
-  font-size: 90%;
+  font-size: 100%;
 }
 
 .mainmenu .item{
 width:30vw;
 text-align: center;
+}
+
+
+.mainmenu .itemc{
+width:30vw;
+text-align: center;
+font-size: 95%;
 }
 
 .active{
@@ -76,8 +83,9 @@ text-align: center;
 
 .menuperso{
   position: fixed;
+  z-index: 28;
   width: 70vw;
-  margin-top: -11vh;
+  margin-top: -12vh;
   background-image: url(img/backIphone.png);
   background-size: cover;
   height: 110vh;
@@ -98,6 +106,7 @@ text-align: center;
   height: 10%;
   background-color: #9CA857;
 }
+
 
 .btnprofil {
   height:2vh;
@@ -153,9 +162,10 @@ text-align: center;
 .category a{
   color: white;
   font-family: arimo;
-  font-size: 80%;
+  font-size: 75%;
   margin-left: 3vh;
 }
+
 
 .category .icon{
   max-width: 100%;
