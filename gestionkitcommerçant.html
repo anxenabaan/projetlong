@@ -1,0 +1,152 @@
+
+        <html lang="fr" dir="ltr">
+        <head>
+          <meta charset="utf-8">
+          <title>FoodKit</title>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+          <link rel="stylesheet" href="menu.css">
+          <link rel="stylesheet" href="listekitsclient.css">
+          <link rel="stylesheet" href="gestiongroupescommerçant.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+
+
+        <body>
+
+
+
+                  <header class="menu menuclient">
+
+                        <ul class="header">
+                          <li class="logo">
+                            <img src="img/logo.png" alt="logo townkit" class="mainlogo">
+                          </li>
+                          <li class="profil" id="btnprofil"> <img src="img/Header.png" alt="profil" class="btnprofil"> </li>
+                        </ul>
+
+                          <ul class="mainmenu">
+                            <li class="itemc itemmenu active">COMMANDES</li>
+                            <li class="itemc itembourg notactive">GROUPES/KITS</li>
+                            <li class="itemc itembourg notactive">DISCUSSIONS</li>
+                          </ul>
+
+                          <div id="menuperso" class="menuperso animatereverse">
+
+
+                            <div class="greenband">
+                              <img src="img/fleche.png" alt="bouton fermer menu" class="btnclose" id="btnclose">
+                              <div class="infos">
+                                <p class="username">René Roy</p>
+                                <p class='userplace'>Carquefou</p>
+                              </div>
+                              <img class="profilepic" src="img/epicier.png" alt="photo user">
+                            </div>
+
+                            <ul class="categories">
+                            <li class="category cat1 "> <img src="img/calendar.png" alt="icon" class="icon"> <a href="link"> MES COMMANDES</a> </li>
+                            <li class="category cat1 "> <img src="img/alert.png" alt="icon" class="icon"> <a href="link"> RAPPELS</a> </li>
+                            <li class="category cat1 "> <img src="img/location.png" alt="icon" class="icon"> <a href="link"> CARTE</a> </li>
+                            <li class="category cat1 "> <img src="img/messages.png" alt="icon" class="icon"> <a href="link"> CONTACTS</a> </li>
+                            <li class="category cat1 "> <img src="img/settings.png" alt="icon" class="icon"> <a href="link"> PARAMETRES DU COMPTE</a> </li>
+
+                          </ul>
+
+                        <div class="containerlogout">
+                          <a href="index.html" class="logout">DECONNEXION</a>
+                        </div>
+
+
+                      </div>
+    </header>
+
+
+        <a href="gestiongroupescommerçant.html" class="arianstring">
+          <img src="Img/leftArrowGrey.png" alt="">
+          <p>GROUPE CARQUEFOU/KIT</p>
+        </a>
+
+
+
+        <div class="listgroup">
+          <div class="onegroup">
+            <div class="imgkit" style="background-image: url(Img/food/raclette.jpg); background-size:cover;">
+
+            </div>
+
+            <div class="maininfoskit">
+              <p class="titlekit" >KIT Raclette </p>
+                <div class="nbr">
+                  <p>4</p>
+                  <img src="Img/bonhomme.png" alt="">
+                </div>
+            </div>
+            <div class="contentkit">
+              <p>200g Fromage</p>
+              <p>400g Charcuterie </p>
+              <p>12 Pommes de terre</p>
+              <p>...</p>
+            </div>
+
+          </div>
+
+          <div class="onegroup">
+            <div class="imgkit" style="background-image: url(Img/food/salade-césar-au-poulet.jpg); background-size:cover;">
+
+            </div>
+
+            <div class="maininfoskit">
+              <p class="titlekit" >KIT Salade César </p>
+                <div class="nbr">
+                  <p>3</p>
+                  <img src="Img/bonhomme.png" alt="">
+                </div>
+            </div>
+            <div class="contentkit">
+              <p>200g Poulet</p>
+              <p>1 salade</p>
+              <p>3 tomates</p>
+              <p>...</p>
+            </div>
+
+          </div>
+
+          <div class="onegroup">
+            <div class="imgkit" style="background-image: url(Img/food/avatar.png); background-size:cover;">
+
+            </div>
+
+            <div class="maininfoskit">
+              <p class="titlekit" >KIT Brunch </p>
+                <div class="nbr">
+                  <p>4</p>
+                  <img src="Img/bonhomme.png" alt="">
+                </div>
+            </div>
+            <div class="contentkit">
+              <p>1 Baguette</p>
+              <p>1 Pot de confiture</p>
+              <p>4 croissants</p>
+              <p>...</p>
+            </div>
+          </div>
+
+          <div class="onegroup empty">
+
+            <img class="ajt" src="Img/btnVertPlus.png" alt="">
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+  </body>
+
+  <script src="menu.js">
+  </script>
+</html>
