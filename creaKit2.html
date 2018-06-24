@@ -1,71 +1,136 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="fr" dir="ltr">
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style2.css">
-	<title>Création kits ingrédients</title>
+  <meta charset="utf-8">
+  <title>FoodKit</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="listekitsclient.css">
+  <link rel="stylesheet" href="gestiongroupescommerçant.css">
+  <link rel="stylesheet" href="detailkitclient.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
+
 <body>
 
-	<div id="txtGroupe2"> <h3> Groupe Carquefou/kit/creation </h3></div>
-
-	<a href="ACOMPLETER.html">
-		<div class="leftArrow">
-		 <img src="img/leftArrowGrey.png" alt="leftArrow"> 
-		</div>
-	</a>
-
-	<div class="timelineVert2">
-		<div class="timelineGrise2">
-			<div class="rond">
-			
-			</div>
-			<div class="rond2">
-			
-			</div>
-			
-		</div>
-	</div>
-
-	<div class="zoneIngred">
-
-				<div class="imgPoulet">
-					<img src="img/food/poulet.png">
-					<h5>200g de Poulet</h5>
-				</div>
-
-				<div class="imageBouch">
-					<img src="img/boucher.png">
-					<h5> Boucher </h5>
-				</div>
-	
-	</div>
-
-		<div class="zoneIngred2">
-					 <img src="img/btnVertPlus.png" alt="btn"> 
-	
-	</div>
-
-	<div class="prixKit"><h3>3.30€</h3></div>
-
-	<div class="membresGroupe"><h3>Membres du groupe</h3></div>
-
-	<li>
-		<div class="boucherPhoto"><img src="img/boucher.png" alt=""><h4>Boucher</h4></div>
-	</li>
-	<li>
-		<div class="boulangerPhoto"><img src="img/boulanger.png" alt=""><h4>Boulanger</h4></div>
-	</li>
-	<li>
-		<div class="epicierPhoto"><img src="img/epicier.png" alt=""><h4>Epicier</h4></div>
-	</li>
-	
 
 
-	<a href="homeCommercant.html"><input name="" type="submit" id="btnSauvegarder2" value="Sauvegarder"></a>
-	
-	<a href="creaKit3.html"> <input name="" type="submit" id="btnSuivant2" value="Suivant"> </a>
+          <header class="menu menuclient">
 
-	
+                <ul class="header">
+                  <li class="logo">
+                    <img src="img/logo.png" alt="logo townkit" class="mainlogo">
+                  </li>
+                  <li class="profil" id="btnprofil"> <img src="img/Header.png" alt="profil" class="btnprofil"> </li>
+                </ul>
+
+                  <ul class="mainmenu">
+                    <li class="itemc itemmenu notactive">COMMANDES</li>
+                    <li class="itemc itembourg active">GROUPES/KITS</li>
+                    <li class="itemc itembourg notactive">DISCUSSIONS</li>
+                  </ul>
+
+                  <div id="menuperso" class="menuperso animatereverse">
+
+
+                    <div class="greenband">
+                      <img src="img/fleche.png" alt="bouton fermer menu" class="btnclose" id="btnclose">
+                      <div class="infos">
+                        <p class="username">René Roy</p>
+                        <p class='userplace'>Carquefou</p>
+                      </div>
+                      <img class="profilepic" src="img/epicier.png" alt="photo user">
+                    </div>
+
+                    <ul class="categories">
+                    <li class="category cat1 "> <img src="img/calendar.png" alt="icon" class="icon"> <a href="link"> MES COMMANDES</a> </li>
+                    <li class="category cat1 "> <img src="img/alert.png" alt="icon" class="icon"> <a href="link"> RAPPELS</a> </li>
+                    <li class="category cat1 "> <img src="img/location.png" alt="icon" class="icon"> <a href="link"> CARTE</a> </li>
+                    <li class="category cat1 "> <img src="img/messages.png" alt="icon" class="icon"> <a href="link"> CONTACTS</a> </li>
+                    <li class="category cat1 "> <img src="img/settings.png" alt="icon" class="icon"> <a href="link"> PARAMETRES DU COMPTE</a> </li>
+
+                  </ul>
+
+                <div class="containerlogout">
+                  <a href="index.html" class="logout">DECONNEXION</a>
+                </div>
+
+
+              </div>
+</header>
+
+
+									<a href="creaKit1.html" class="arianstring">
+									  <img src="Img/leftArrowGrey.png" alt="">
+									  <p>GROUPE CARQUEFOU/KIT/CREATION</p>
+									</a>
+
+									<img style="padding:10px;" src="Img/crea/pr2.png" alt="barre de progression">
+
+                  <h3 class="titrecat ingredients">Ingrédients</h3>
+											<article  class="listeingredients2">
+													<div class="itemingredient2">
+															<img src="Img/epicier.png" alt="commerçant">
+															<img src="Img/food/salade.png" alt="ingredient">
+															<p class="nomingredient">1 Salade</p>
+														</div>
+														<div class="itemingredient2">
+ 															 <img src="Img/epicier.png" alt="commerçant">
+ 															 <img src="Img/food/tomates.png" alt="ingredient">
+ 															 <p class="nomingredient">4 Tomates</p>
+ 														</div>
+ 														<div style="display:flex; justify-content:center;"class="itemingredient2">
+ 																<img style="margin-left:0;" src="Img/btnVertPlus.png" alt="commerçant">
+
+ 														 </div>
+
+													 </article>
+
+                           <h3 class="titrecat participants">Participants </h3>
+                             <article class="listparticipants2">
+                               <div class="itemparticipant2">
+                                 <img src="Img/boulanger.png" class="commerçant"alt="participant">
+                                 <p>boulanger</p>
+                               </div>
+
+                               <div class="itemparticipant2">
+                                 <img src="Img/boucher.png" class="commerçant"alt="participant">
+                                 <p>boucher</p>
+                               </div>
+
+                               <div class="itemparticipant2">
+                                 <img src="Img/epicier.png" class="commerçant"alt="participant">
+                                 <p>epicier</p>
+                               </div>
+
+                             </article>
+
+
+
+
+
+
+
+
+
+
+
+
+									<div class="btnprogress">
+									    <a href="gestionkitcommerçant.html"> <img src="Img/sauvegarder.png" alt="btnsauvegarde"> </a>
+
+									    <a href="creaKit3.html"> <img src="Img/suivant.png" alt="btnsuivant"> </a>
+
+
+									</div>
+
+
+
+
+
 </body>
+
+<script src="menu.js">
+</script>
 </html>
