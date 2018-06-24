@@ -2,6 +2,10 @@ var profil = document.getElementById("btnprofil");
 var fermer = document.getElementById("btnclose")
 var ouvrir = document.getElementById("menuperso");
 
+
+
+
+
 profil.addEventListener("click", function(){
   ouvrir.classList.toggle("animate");
   ouvrir.classList.remove("animatereverse");
