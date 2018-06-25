@@ -17,15 +17,36 @@ body{
   margin-top: 10vh;
   width: 100vw;
 }
-.cmd  {
-color : orange;
-}
 
 ul{
   list-style: none;
   list-style-type: none;
   padding: 0;
 
+}
+a {
+  font-size : 3vw;
+  color : #A6A7A8;
+}
+a:link {
+  text-decoration: none;
+  padding : -5vw;
+
+}
+.imgLogo{
+  position: relative;
+  left : 5vw;
+  width : 15vw;
+  top : 2vw;
+}
+.imgBonho{
+  width : 7vw;
+  position : relative;
+  left : 73vw;
+  top : 3vw;
+}
+.discussion  {
+color : #525252;
 }
 
 .hide{
@@ -59,8 +80,22 @@ ul{
   font-family: arimo;
   font-weight: bold;
   font-size: 100%;
+  top : 5vw;
+  position :relative;
+
 }
 
+.mainmenu .item{
+width:30vw;
+text-align: center;
+}
+
+
+.mainmenu .itemc{
+width:30vw;
+text-align: center;
+font-size: 95%;
+}
 
 .active{
   color: #525252;
