@@ -21,8 +21,6 @@ input{
 	text-transform: uppercase;
 	margin-left : 20vw;
 	border-radius: 12px;
-
-
 }
 
 
@@ -122,21 +120,12 @@ input{
 
 /* Popup commande */ 
 
-#btnNextCmd {
-	position : relative;
-	top : 68vw;
-	left : -15vw;
-	width : 580px;
-	height : 80px;
-	background: #9CA857;
-}
-
 .recapCmd img{
-	width : 7vw;
+	width : 5vw;
 	height : auto;
 	position : relative;
-	left : 57vw;
-	top : 8vw;
+	left : 60vw;
+	top : 5vw;
 }
 
 .recapCmd h2{
@@ -159,4 +148,85 @@ input{
 	letter-spacing: 2px;
 	line-height: 3.5vw;
 
+}
+.backSalade {
+	background: #F8F8F8;
+	position : relative;
+	top : 2vw;
+	height : 15vw;
+
+}
+.backSalade h3{
+
+	color : #9CA857;
+	font-family: Fira Sans;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-size : 3vw;
+	position : relative;
+	top : 5vw;
+	left : 5vw;
+}
+.backSalade h4{
+
+	color : #525252;
+	font-family: Arial;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-size : 2vw;
+	position : relative;
+	top : -1vw;
+	left : 18vw;
+	line-height: 3vw;
+
+}
+.password2 h4 {
+	color : #525252;
+	font-family: Arial;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-size : 2.5vw;
+	position : relative;
+	top : 5vw;
+	left : -22vw;
+	line-height: 3vw;
+
+}
+
+.password2 h2{
+	letter-spacing: 2px;
+	font-size : 3vw;
+	position : relative;
+	top : 8vw;
+	left : 10vw;
+
+}
+.password2 input{
+	position : relative;
+	width : 60vw;
+	height : 8vw;
+	left : -14vw;
+	margin-bottom:-5vw;
+	border-radius :0%;
+	border:1px dashed #D6D1D1;
+	background: transparent;
+}
+#confirmCmd{
+	font-family: Arimo;
+	color : #525252;
+	font-size: 2.5vw;
+	font-weight: normal;
+	position : relative ;
+	left : 18vw;
+	top : 10vw;
+
+}
+
+#btnNextCmd {
+	position : relative;
+	top : 12vw;
+	left : -10vw;
+	width : 50vw;
+	height : 80px;
+	background: #9CA857;
 }
