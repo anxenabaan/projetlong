@@ -9,6 +9,22 @@ html,body{
     overflow-x: hidden;
     margin : 0;
 }
+input{
+	background: #9CA857;
+	border-color: transparent;
+	width : 250px;
+	height : 100px;
+	color :white;
+	font-family: Arial;
+	font-weight:bolder;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-left : 20vw;
+	border-radius: 12px;
+
+
+}
+
 
 .logo {
 	width : 100px;
@@ -104,3 +120,43 @@ html,body{
 	font-weight: normal;
 }
 
+/* Popup commande */ 
+
+#btnNextCmd {
+	position : relative;
+	top : 68vw;
+	left : -15vw;
+	width : 580px;
+	height : 80px;
+	background: #9CA857;
+}
+
+.recapCmd img{
+	width : 7vw;
+	height : auto;
+	position : relative;
+	left : 57vw;
+	top : 8vw;
+}
+
+.recapCmd h2{
+	font-family: Arial;
+	font-size : 7vw;
+	color :#9CA857 ;
+	position : relative;
+	left : 26vw;
+	top : 5vw;
+	letter-spacing: 2px;
+
+}
+.recapCmd h4{
+	font-family: Arimo;
+	font-size : 2.5vw;
+	font-weight: normal;
+	color :#483730 ;
+	position : relative;
+	top : 2vw;
+	letter-spacing: 2px;
+	line-height: 3.5vw;
+
+}

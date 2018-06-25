@@ -7,6 +7,16 @@ body{
 
 
 }
+a{
+  color : #483730;
+}
+a:hover{
+  color : #9CA857;
+}
+a:link {
+  text-decoration: none;
+  
+}
 
 
 .itemkit{
