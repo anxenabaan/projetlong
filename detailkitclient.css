@@ -85,7 +85,8 @@
 }
 
 .listeingredients2{
-  margin-left:-6rem;
+  margin-left:-5rem;
+  width:60%;
 }
 .itemingredient2 img{
   display: flex;
