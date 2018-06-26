@@ -24,9 +24,13 @@ ul{
   padding: 0;
 
 }
+.cmb{
+  font-size: 300%;
+}
 a {
-  font-size : 3vw;
+  font-size : 4.3vw;
   color : #A6A7A8;
+  margin-top:-3.2rem;
 }
 a:link {
   text-decoration: none;
@@ -70,7 +74,9 @@ color : #525252;
   margin: 2vw;
 
 }
-
+.cmd{
+    box-shadow: 0px 5px 0px 0px #9CA857;
+}
 
 .mainmenu{
   width: 100vw;
